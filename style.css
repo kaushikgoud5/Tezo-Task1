@@ -1,0 +1,472 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.navbar-items ul {
+  display: flex;
+  align-items: center;
+}
+.navbar-items {
+  font-size: 14px;
+  font-weight: bold;
+  color: #212832;
+}
+header ul li {
+  list-style-type: none;
+  margin: 20px;
+}
+@media (width<=580px) {
+  .navbar-items ul {
+    flex-direction: column;
+  }
+}
+
+.signup {
+  border: 1px solid #181e4b;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.best-destination-container {
+  display: flex;
+}
+.best-destination-left {
+  margin-left: 50px;
+  padding: 60px;
+}
+
+.img-best-destination-right img {
+  width: 50vw;
+}
+
+.best-destination-left p {
+  color: #df6951;
+}
+.best-destination-left :nth-child(2) {
+  color: #181e4b;
+  font-size: 5vw;
+  font-weight: bolder;
+  line-height: 0.9;
+}
+.best-destination-left span {
+  color: #5e6282;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.btn-find-out {
+  padding: 10px;
+  background-color: #f1a501;
+  color: rgba(255, 255, 255, 1);
+  border-radius: 9px;
+  border: 0px;
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 20px;
+  box-shadow: 0px 0px 20px 0px rgb(244 229 13 / 40%);
+}
+
+.category-best-service-heading {
+  margin: 5px;
+  margin-top: 70px;
+}
+.img-design {
+  position: absolute;
+  right: 0;
+}
+.category-heading {
+  font-size: 40px;
+  text-align: center;
+}
+.category {
+  color: #5e6282;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.best-services {
+  margin-top: 2px;
+  color: #14183e;
+  font-weight: bold;
+}
+
+.category-best-services-cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px;
+  flex-wrap: wrap;
+}
+.category-cards {
+  text-align: center;
+  padding: 25px;
+  width: 150px;
+  color: #1e1d4c;
+}
+.card-item {
+  box-shadow: 0 3px 20px 0px rgb(225 223 223);
+  border-radius: 15px;
+}
+
+.category-cards :nth-child(3) {
+  margin-top: 5px;
+  color: #5e6282;
+  font-size: 13px;
+}
+.img-category img {
+  height: 120px;
+  width: 135px;
+  object-fit: none;
+}
+.selling-destination-container {
+  margin-top: 80px;
+}
+
+.top-selling {
+  text-align: center;
+}
+.sell {
+  color: #5e6282;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.desti {
+  margin: 5px;
+  font-size: 35px;
+  color: #14183e;
+  font-weight: bold;
+}
+
+.top-destination-container {
+  margin-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.destination-box {
+  box-shadow: 0px 10px 20px 0px rgb(224 217 217);
+  border-radius: 20px;
+  margin: 6px;
+}
+
+.img-destination img {
+  height: 315px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px 10px 0px 0px;
+}
+.destination-details {
+  display: flex;
+  justify-content: space-between;
+  color: #5e6282;
+  margin: 5px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.days-trip {
+  color: #5e6282;
+  margin-left: 8px;
+  font-size: 13px;
+  padding-bottom: 15px;
+}
+
+.easy-fast-container {
+  margin-top: 115px;
+  display: flex;
+  justify-content: space-around;
+  margin: 35px;
+  padding: 30px;
+  margin-top: 110px;
+  flex-wrap: wrap;
+}
+.easy-fast-container-left-content1 {
+  color: #5e6282;
+  font-size: medium;
+  font-weight: bold;
+}
+
+.easy-fast-container-left-content2 {
+  color: #14183e;
+  font-size: 4vw;
+  font-weight: bold;
+  margin-top: 4px;
+  width: 40vw;
+}
+.easy-fast-container-left-content3 {
+  display: flex;
+  margin-top: 15px;
+}
+.content3-img {
+  transform: translate(0, 10px);
+}
+
+.content3-description {
+  margin: 10px 10px 10px 20px;
+  width: 26vw;
+}
+.desc-1 {
+  color: #5e6282;
+  font-size: 13px;
+  font-weight: bold;
+}
+.desc-2 {
+  font-size: 12px;
+  color: #6e6565;
+  font-weight: 500;
+}
+
+.easy-fast-container-right {
+  border-radius: 10px;
+  border: 2px solid white;
+  height: 417px;
+  margin-top: 60px;
+  box-shadow: 10px -10px 50px rgb(186, 225, 237);
+}
+
+.easy-fast-container-right .img-girl img {
+  padding: 10px 15px 10px 15px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.rome-box {
+  display: flex;
+  border: 2px solid #f0f0f0;
+  background-color: #fff;
+  transform: translate(83%, 11%);
+  width: 250px;
+  position: absolute;
+  justify-content: center;
+  gap: 6px;
+  border-radius: 15px;
+  height: 140px;
+}
+.rome-box img {
+  width: 40px;
+  margin-top: 5px;
+  margin-left: 8px;
+  padding: 5px;
+  border-radius: 50%;
+}
+.rome-context .ongoing {
+  margin-top: 10px;
+  padding: 5px 0px 5px 0px;
+  font-size: 16px;
+  color: #84829a;
+  font-weight: bold;
+}
+.rome-trip {
+  font-size: 22px;
+  color: rgb(7, 7, 72);
+  font-weight: bold;
+}
+.loader {
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.loader span {
+  color: #9181e1;
+  font-weight: 500;
+}
+progress {
+  accent-color: #8a79df;
+}
+
+.trip-to-greece {
+  margin: 0px 15px;
+}
+.greece-head {
+  font-size: large;
+  color: #080808;
+  font-weight: bold;
+}
+.greece-june {
+  margin-top: 11px;
+  padding: 2px;
+  color: #9392a7;
+  font-weight: bold;
+}
+
+.img-greece-icons {
+  margin-top: 15px;
+}
+.img-greece-icons span {
+  padding: 6px;
+}
+.ph-buildings {
+  padding: 8px;
+}
+
+.greece-24-people {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 38px;
+  color: #9392a7;
+  font-weight: bold;
+  font-size: 17px;
+}
+.subscribe-container {
+  position: relative;
+  background-color: #f9f7fe;
+  width: 80vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 91px;
+  border-radius: 60px 15px 15px 15px;
+}
+
+.img-subscribe-bg-1 img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 150px;
+  opacity: 0.2;
+}
+.img-subscribe-bg-2 img {
+  transform: rotate(90deg);
+  position: absolute;
+  opacity: 0.2;
+  left: 37px;
+  bottom: -34px;
+  width: 219px;
+}
+.subscribe-heading {
+  text-align: center;
+  font-size: 31px;
+  color: #5e6282;
+  width: 73vw;
+  font-weight: bold;
+}
+.subscribe-email {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.input-email input {
+  margin: 5px;
+  height: 45px;
+  width: 339px;
+  border-radius: 10px;
+  border: white;
+  z-index: 2;
+  position: relative;
+  padding-left: 15px;
+}
+.btn-subscribe button {
+  margin: 5px;
+  width: 170px;
+  height: 45px;
+  background-color: #ff866a;
+  border-radius: 5px;
+  border: 0px;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+}
+.img-rocket img {
+  transform: translate(39vw, -39%);
+  width: 50px;
+}
+
+.ftr-travelPro {
+  margin: 130px 80px 80px 80px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.travel-pro-main {
+  margin: 10px;
+  padding: 5px;
+}
+.travel-pro-main-heading {
+  color: #181e4b;
+  font-size: 30px;
+  font-weight: bold;
+}
+.travel-pro-main-description {
+  width: 195px;
+  font-size: 10px;
+  color: #5e6282;
+  font-weight: bold;
+}
+.company {
+  display: flex;
+  flex-direction: column;
+}
+.travel-pro-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.travel-pro-content-heading {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.travel-pro-content-items {
+  margin-top: 16px;
+  color: #5e6282;
+  font-size: 12px;
+  font-weight: bold;
+}
+.travel-pro-content-items div {
+  margin: 8px 2px;
+}
+.travel-pro-social-media {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-media-icons {
+  margin-top: 15px;
+  text-align: center;
+  display: flex;
+  gap: 30px;
+}
+.fab {
+  text-decoration: none;
+  padding: 10px;
+  box-shadow: 2px 2px 12px 6px rgb(221, 219, 219);
+  border-radius: 50%;
+  color: black;
+  width: 17px;
+}
+.discover {
+  margin-top: 18px;
+  padding: 5px;
+  font-size: 15px;
+  color: #5e6282;
+  font-weight: bold;
+}
+.google-apple-items {
+  display: flex;
+  margin-top: 4px;
+}
+.img-google img {
+  width: 89px;
+  height: 30px;
+  border-radius: 39px;
+  margin-right: 7px;
+}
+.img-apple img {
+  width: 89px;
+  height: 30px;
+  border-radius: 19px;
+}
+
+.ftr-copyrights {
+  display: flex;
+  justify-content: center;
+  color: #5e6282;
+  font-size: 11px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
